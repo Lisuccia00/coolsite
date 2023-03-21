@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+:root{
+    font-family: "Nunito";
+}
+
+:root::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin: 0;
+    background-color: #F5EBEB;
+}
+
+-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+
+p{
+    color: #867070;
+    font-size: large;
+    text-align: justify;
+}
+
+h1{
+    padding-bottom: 1rem;
+    color: #867070;
+    text-align: center;
+    border-style: none none solid none ;
+}
+
+.sidenav{
+    top: 0;
+    display: flex;
+    position: sticky;
+    background-color: #D5B4B4;
+    height: 2.4rem;
+    width: 100%;
+    transition: all .3s;
+}
+
+.sidenav a {
+    align-self: flex-start;
+    height: 100%;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.sidenav a:hover{
+    background-color: #E4D0D0;
+    color: #867070;
+}
+
+.content {
+    padding: 10%;
+    padding-top: 1px;
+}
+
+.polaroid img{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.polaroid{
+    max-width: 40rem;
+    background-color: #D5B4B4;
+    border-radius: 10px;
+    box-shadow: 4px 4px 0px 0px #d5b4b47c;
+    transition: all .3s;
+}
+
+.polaroid:hover{
+    background-color: #E4D0D0;
+    transform: scale(1.2);
+}
+
+.polaroid p{
+    color: white;
+}
+
+
+.polaroid:hover p{
+    color: #867070;
+}
+
+.des p{
+    text-align: center;
+}
+
+.gallery{
+    transition: all .3s;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px
+}
+
+
+.btn{
+    height: 3rem;
+    width: 10rem;
+    background-color: #D5B4B4;
+    border-color: #867070;
+    border-style: solid;
+    border-radius: 10px;
+    color: white;
+    transition: all .3s;
+    box-shadow: 4px 4px 0px 0px #d5b4b47c;
+}
+.btn:hover{
+    transform: translateY(-3px);
+    background-color: #E4D0D0;
+    color:#867070;
+}
+
+.animated{
+    transition: all .3s;
+}
+
+.scelta{
+    display: flex;
+    gap: 1rem
+}
