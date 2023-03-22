@@ -2,51 +2,66 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="funzioni.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-        <div class="nav">
-            <ul>
-                <li><a href="#hello">Home</a></li>
-                <li><a href="#about">About me</a></li>
-                <li><a href="#contact">Chiamatemi</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <h1 id="hello">Chi sono</h1>
-            <p>
-                vi ciederete chi sono, beh sappiate che non lo so nemmeno io, fanculo, guardate un pochino di foto carine che ho trovato su google immagini:
-            </p>
-            <div class="gallery">
-                <div class="polaroid">
-                    <img src="prova.jpeg">
-                    <div class = "des">
-                        <p>immagine a caso</p>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <img src="proa2.jpeg">
-                    <div class = "des">
-                        <p>immagine a caso</p>
-                    </div>
-                </div>
-                <div class="polaroid">
-                    <img src="provae.jpeg">
-                    <div class = "des">
-                        <p>immagine a caso</p>
-                    </div>
-                </div>
+        <div class="grid">
+            <div class="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="music.html">Musica</a></li>
+                </ul>
             </div>
-            <h1>Compila questo</h1>
-            <p><br><br><br>perfavore l'ho fatto con tanto amore</p>
-            <div class="scelta">
-                <button class="btn" onclick = "accetta()">OK VA BENE</button>
-                <button class="btn" onclick = "rifiuta()">NO NON HO VOGLIA</button>
+            <div class="content">
+                <img src="stickman.png" id="stickman-image">
+                <h1 id="hello">IT'S A ME, LISA :3</h1>
+                <p>
+                    questa pagina e' un riassuntone di cio' che potrete trovare nelle prossime pagine
+                </p>
+                <div class="gallery">
+                    <div class="polaroid">
+                        <img src="cover_title.png">
+                        <div class = "des">
+                            <p>Musica</p>
+                        </div>
+                    </div>
+                    <div class="polaroid">
+                        <img src="gameScreeen.png">
+                        <div class = "des">
+                            <p>Videogames</p>
+                        </div>
+                    </div>
+                    <div class="polaroid">
+                        <img src="videos.png">
+                        <div class = "des">
+                            <p>video Editing</p>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h1>CHI SONO</h1>
+                
+                <p>Mi chiamo Lisa Manoni, sono una ragazza di 22 anni, mi piace fare tante cose carine tra cui videogames, siti, programmini, musica, video ecc.</p>
+                <br><br><br>
+                <div class = "ChiSono">
+                    <div class = "immagine">
+                        <img src="chibi.png">
+                    </div>
+                    <div class ="testo">
+                        <p>that's me irl</p>
+                    </div>
+                </div>
+                <h1>RISPONDI ALLA DOMANDA</h1>
+                <p><br><br><br>perfavore l'ho fatto con tanto amore</p>
+                <div class="scelta">
+                    <button class="btn" onclick = "accetta()">OK VA BENE</button>
+                    <button class="btn" onclick = "rifiuta()">NO NON HO VOGLIA</button>
+                </div>
+                <br>
+                <p id="risposta" class="animated"></p>
+                <br>
             </div>
-            <p id="risposta" class="animated"></p>
-            <br>
         </div>
     </body>
 </html>
